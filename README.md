@@ -3,6 +3,7 @@
 Following is the course project for the Getting and Cleaning Data Coursera course.
 The R script, `run_analysis.R`, performs the following tasks:
 
+
 1. Unzips the downloaded UCI HAR dataset in the working directory, if the folder does not already exist
 2. Loads the activity and feature info
 3. Loads both the training and test datasets, keeping only those columns which
@@ -14,4 +15,4 @@ The R script, `run_analysis.R`, performs the following tasks:
 7. Creates the final tidy dataset that consists of the average (mean) value of each
    variable for each subject and activity pair.
 
-The end result is shown in the file `tidyData.txt`.
+The end result is shown in the file `tidyData.txt`
